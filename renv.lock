@@ -1,0 +1,52 @@
+{
+  "R": {
+    "Version": "4.2.2",
+    "Repositories": [
+      {
+        "Name": "RSPM",
+        "URL": "https://packagemanager.rstudio.com/all/latest"
+      }
+    ]
+  },
+  "Packages": {
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.0.9",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e9c08b94391e9f3f97355841229124f2",
+      "Requirements": []
+    },
+    "audio.whisper": {
+      "Package": "audio.whisper",
+      "Version": "0.1.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "bnosac",
+      "RemoteRepo": "audio.whisper",
+      "RemoteRef": "master",
+      "RemoteSha": "ddd673cb40fa974a9dd913672251dc85230cac2c",
+      "Hash": "73118eede25d87a6bdb51b5cfdc4b3b6",
+      "Requirements": [
+        "Rcpp"
+      ]
+    },
+    "av": {
+      "Package": "av",
+      "Version": "0.8.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "747139124f6efdc7a7ff30b918ba942b",
+      "Requirements": []
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.16.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c9e8442ab69bc21c9697ecf856c1e6c7",
+      "Requirements": []
+    }
+  }
+}
